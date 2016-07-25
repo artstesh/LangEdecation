@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Загрузка нового текста. Первый шаг"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Скопируйте текст, который Вы хотите изучить в буфер обмена телефона, в главном меню приложения нажмите кнопку &quot;Новый текст&quot;. В открывшемся окне вставьте текст в текстовое поле и нажмите загрузить."
+                android:id="@+id/textView3"
+                android:textSize="16dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Учим текст"
+                android:id="@+id/textView4"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="После загрузки нового текста (либо по нажатию кнопки &quot;Предыдущий текст&quot; в главном меню) откроется основное окно программы. В центральной части экрана отображается текущий фрагмент текста, который предстоит выучить. Прочитайте предложенный фрагмент после чего нажмите на кнопку &quot;Старт&quot;. Нажмите на кнопку с первым словом фрагмента, затем со вторым и т.д. Когда Вы правильно укажете все слова текущего фрагмента, будет отображено продолжение текста в центре экрана. Снова нажмите кнопку &quot;Старт&quot; и продолжите изучение текста."
+                android:id="@+id/textView5"
+                android:textSize="16dp"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
