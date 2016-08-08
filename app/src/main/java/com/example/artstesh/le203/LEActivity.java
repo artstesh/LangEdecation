@@ -37,7 +37,8 @@ import java.util.List;
 
 import static com.example.artstesh.le203.R.layout.drawer_list_item;
 
-
+//the main class for the learning process. It's being cut step by step.
+// But a lot of functionality still here...
 public class LEActivity extends ActionBarActivity implements View.OnClickListener, View.OnLongClickListener
 {
 
@@ -87,6 +88,7 @@ public class LEActivity extends ActionBarActivity implements View.OnClickListene
 
 		try
 		{
+			//filling database for first start
 			InputStream is = getAssets().open("Dic.txt");
 			Cursor cursor = database.query(DBHelper.DATABASE_NAME, null, null, null, null, null, null);
 
@@ -157,6 +159,7 @@ public class LEActivity extends ActionBarActivity implements View.OnClickListene
 
 		try
 		{
+			//if user've learned something - its opening the last text
 			FileInputStream inputStream = openFileInput("maintext.txt");
 			if(inputStream != null)
 			{
@@ -210,6 +213,7 @@ public class LEActivity extends ActionBarActivity implements View.OnClickListene
 	@Override
 	public boolean onLongClick(View v)
 	{
+		//translate the word
 		buttonManager.translateButtonText(v);
 		return true;
 	}
@@ -270,7 +274,10 @@ public class LEActivity extends ActionBarActivity implements View.OnClickListene
 		}
 	}
 
-	public void autoFiller(int tempor) //Принимаем значение отправителя: 0 numberWords, 1 - butcounter;
+	public void autoFiller(int tempor)
+	//Принимаем значение отправителя: 0 numberWords, 1 - butcounter
+	// fill the learning field for big texts
+
 	{
 		int c = 6*wordsCounter.getLearnStep();
 		int a = (tempor > 0) ? wordsCounter.getWordNumber() : wordsCounter.getPieceLength();

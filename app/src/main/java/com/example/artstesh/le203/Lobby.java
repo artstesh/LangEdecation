@@ -15,7 +15,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-
+//The first window for user. Function of moving between other parts of app.
 public class Lobby extends ActionBarActivity implements View.OnClickListener
 {
 

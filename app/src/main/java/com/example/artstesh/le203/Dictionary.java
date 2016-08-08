@@ -5,9 +5,7 @@ import android.content.ContentValues;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-/**
- * Created by artstesh on 19.01.2016.
- */
+//Filling database
 public class Dictionary
 {
 

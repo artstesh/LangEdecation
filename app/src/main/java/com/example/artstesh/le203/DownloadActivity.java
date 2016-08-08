@@ -14,7 +14,7 @@ import java.io.OutputStreamWriter;
 
 public class DownloadActivity extends ActionBarActivity implements View.OnClickListener
 {
-
+//Intrf for adding text for learning
     EditText etDownload;
     Button btnDownload;
 

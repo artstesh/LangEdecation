@@ -5,7 +5,7 @@ import android.database.Cursor;
 import java.util.regex.Pattern;
 
 /**
- * Created by artstesh on 18.06.2016.
+ * translating from database
  */
 public class transFromDB
 {

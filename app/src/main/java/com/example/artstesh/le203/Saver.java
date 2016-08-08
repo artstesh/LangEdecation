@@ -2,9 +2,7 @@ package com.example.artstesh.le203;
 
 import android.content.SharedPreferences;
 
-/**
- * Created by artstesh on 25.01.2016.
- */
+//To be continued...
 public class Saver
 {
 

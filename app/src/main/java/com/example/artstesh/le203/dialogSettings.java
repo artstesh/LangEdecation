@@ -11,9 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-/**
- * Created by artstesh on 09.01.2016.
- */
+//Really nothing to explain - just interface for saving settings
 public class dialogSettings extends ActionBarActivity implements View.OnClickListener
 {
     Button btnSettingsOK;

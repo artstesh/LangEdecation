@@ -14,7 +14,7 @@ import java.util.List;
  * Created by artstesh on 24.06.2016.
  */
 public class ButtonManager
-		//Button management, rename buttons, get them enabled or not and so on.
+//Button management, rename buttons, get them enabled or not and so on.
 {
 	private static ButtonManager manager;
 	private Button but_ans1;

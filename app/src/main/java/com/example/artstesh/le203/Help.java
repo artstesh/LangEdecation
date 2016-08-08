@@ -5,9 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
 
-/**
- * Created by artstesh on 30.01.2016.
- */
+//Nothing now. Should be written
 public class Help extends ActionBarActivity implements View.OnClickListener
 {
 

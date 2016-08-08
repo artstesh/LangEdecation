@@ -9,7 +9,7 @@ import android.provider.BaseColumns;
  * Created by artstesh on 28.01.2016.
  */
 
-
+//Base interface for SQLite
 class DBHelper extends SQLiteOpenHelper implements BaseColumns
 {
     public static final String DATABASE_NAME = "translatorDB";
